@@ -22,11 +22,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone"
-        app:constraint_layoutBottom_toBottomOf="parent"
-        app:constraint_layoutTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraint_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/item_country_list"
         tools:visibiltiy="visible" />
 
